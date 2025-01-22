@@ -228,8 +228,8 @@ body {
     list-style-position: inside;
 }
 
-.detail li {
-    line-height: 1.5em;
+.detail-description ul li {
+    margin-bottom: 0.4em;
 }
 
 .detail li:last-child {
