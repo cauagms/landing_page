@@ -162,6 +162,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 5em;
 }
 
 .adress,
@@ -193,4 +194,49 @@ body {
 
 .about-location p {
     line-height: 1.5em;
+}
+
+/* Event details  */
+#details {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.detail {
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 4em;
+}
+
+.detail img {
+    width: 50%;
+}
+
+.detail h3 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    font-weight: 500;
+}
+
+#detail-tittle h3 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.detail ul {
+    list-style-position: inside;
+}
+
+.detail li {
+    line-height: 1.5em;
+}
+
+.detail li:last-child {
+    font-weight: bold;
+}
+
+.detail-description {
+    padding-left: 2em;
+    width: 100%;
 }
