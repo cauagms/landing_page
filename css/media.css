@@ -1,0 +1,185 @@
+/* TABLET */
+@media (max-width:900px) {
+    /* Event form */
+     .disclaimer {
+        padding: 2em 2.5em;
+    }
+
+    .subscription-form {
+        max-width: 40%;
+    }
+
+    /* Benefits section */
+    .benefits {
+        flex-direction: column;
+        padding: 2em;
+        width: 100%;
+    }
+    
+    .benefit {
+        margin-bottom: 2em;
+        max-width: 100%;
+    }
+
+    /*Event location  */
+    .adress,
+    .about-location {
+        max-width: 50%;
+    }
+     
+    .adress i {
+        font-size: 3.5em;
+        margin-right: 0.3em;
+    }
+    
+    .adress-details {
+        text-align: center;
+        font-size: 1.3em;
+    }
+    
+    .about-location h3 {
+        font-size: 2.5em;
+        margin-bottom: 0.5em;
+        text-align: center;
+    }
+    
+    .about-location p {
+        text-align: center;
+    }
+
+    /* Event details container */
+.detail {
+    gap: 0;
+}
+
+.detail img {
+    max-width: 100%;
+}
+
+#detail-1 h3 {
+    font-size: 2.5em;
+}
+
+#cta h3 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+#cta .btn {
+    font-size: 1.5em;
+    width: 60%;
+}
+
+}
+/* CELULAR */
+@media screen and (max-width:450px) {
+    .btn {
+        opacity: 1;
+    }
+    /* Event form */
+    .event-description {
+         height: auto;
+         flex-direction: column;
+    }
+
+    .disclaimer {
+        padding: 2em;
+    }
+
+    .disclaimer h2 {
+        margin-bottom: .5em;
+    }
+
+    .subscription-form {
+        max-width: 70%;
+        margin-bottom: 2em;
+    }
+
+    /* Benefits section */
+
+.benefits {
+   flex-direction: column;
+   align-items: center;
+   padding: 2em;
+   width: auto;
+}
+
+.benefit {
+    margin-bottom: 2em;
+    max-width: 100%;
+}
+
+/* Event location */
+
+#location {
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.adress {
+    order: 2;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.adress i {
+    margin: .3em 0;
+}
+
+.about-location {
+    order: 1;
+    max-width: 100%;
+}
+
+.about-location h3 {
+    margin-bottom: 0;
+}
+
+.about-location p {
+    display: none;
+}
+
+/* event details container */
+.detail {
+    flex-direction: column;
+    margin-bottom: .5em;
+    gap: 0;
+}
+
+.detail img {
+    width: 100%;
+    margin: 2em 0;
+}
+
+#detail-1 h3 {
+    font-size: 2em;
+}
+
+#detail-1 img {
+    display: none;
+}
+
+.detail-description {
+    padding: 0;
+}
+
+#detail-3 img {
+    order: 2;
+}
+
+#detail-3 .detail-description {
+    order: 1;
+}
+
+/* cta */
+#cta {
+   text-align: center;
+}
+
+#cta .btn {
+   width: 80%;
+}
+
+}

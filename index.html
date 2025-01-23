@@ -3,153 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indecor</title>
+    <title>Landing Page</title>
     <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Fim fonte -->
+
      <!-- Icons -->
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
      <!-- Fim Icons -->
-
-     <!-- Fonte -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-     <!-- Fim fonte -->
 </head>
 <body>
-    <header id="event-description">
-        <div class="disclaimer">
-            <h2>Indecor</h2>
-            <p class="about-event">
-                Um evento para revolucionar a sua criatividade
-            </p>
-            <p>Data do evento:</p>
-            <p class="event-date">
-                Domingo, 28 de Maio, a partir das 14h
-            </p>
-        </div><!--disclaimer-->
+   <header class="event-description">
+    <div class="disclaimer">
+        <h2>Indecor</h2>
+        <p class="about-event">
+            Um evento para revolucionar a sua criatividade
+        </p>
+        <p>Data do evento:</p>
+        <p class="event-date">
+            Domingo, 28 de Maio, a partir das 14h
+        </p>
+    </div><!--disclaimer-->
 
-        <div class="subscription-form">
-            <p>Preencha o formulário para receber os detalhes do evento</p>
-            <form>
-                <div class="form-group">
-                    <label for="name">Nome</label>
-                    <input type="text" name="name" id="name" placeholder="Digite seu nome">
-                </div>
+    <div class="subscription-form">
+        <p>Preencha o formulário para receber os detalhes do evento</p>
+        <form>
+            <div class="form-group">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome">
+            </div>
 
                 <div class="form-group">
                     <label for="email">E-mail</label>
-                    <input type="email" name="name" id="email" placeholder="E-mail">
+                    <input type="email" name="email" id="email" placeholder="Digite seu melhor e-mail">
                 </div>
 
                 <div class="form-group">
-                    <label for="name">Telefone</label>
-                    <input type="text" name="name" id="name" placeholder="Número de Whatsapp">
+                    <label for="phone">Telefone</label>
+                    <input type="text" name="phone" id="phone" placeholder="Número de Whatsapp">
                 </div>
-
-                <div class="form-group">
+                
+                 <div class="form-group">
                     <label for="interest">Principal Interesse</label>
-                    <select name="selection" id="selection">
+                    <select name="interest" id="interest">
                         <option value="" disabled selected>Selecione</option>
                         <option value="apartment">Apartamentos</option>
                         <option value="house">Casa</option>
-                        <option value="gardens">Jardins</option>
+                        <option value="garden">Jardins</option>
                         <option value="other">Outros</option>
                     </select>
-                </div>
+                 </div><!--form-group-->
 
-                <input type="submit" class="btn" value="Quero me inscrever">
-            </form>
-        </div><!--subscription-form-->
-        
-    </header>
+                 <input type="submit" class="btn" value="Quero me inscrever">
+        </form>
+    </div><!--subscription-form-->
+   </header>
 
-    <section class="key-benefits">
-        <h2>O que você vai aprender:</h2>
-        <div class="benefits">
-            <div class="benefit">
-                <div class="benefit-img" id="benefit1"></div>
-                <p>Alguma coisa muito legal, que vai fazer a diferença na vida do participante.</p>
-            </div><!--benefit-->
+   <section id="key-benefits">
+    <h2>O que você vai aprender:</h2>
+    <div class="benefits">
+        <div class="benefit">
+            <div id="benefit-1" class="benefit-img"></div>
+            <p>Alguma coisa muito legal, que vai fazer a diferença na vida do participante.</p>
+        </div><!--benefit-->
 
-            <div class="benefit">
-                <div class="benefit-img" id="benefit2"></div>
-                <p>Alguma coisa muito legal, que vai fazer a diferença na vida do participante.</p>
-            </div><!--benefit-->
+        <div class="benefit">
+            <div id="benefit-2" class="benefit-img"></div>
+            <p>Alguma coisa muito legal, que vai fazer a diferença na vida do participante.</p>
+        </div><!--benefit-->
+  
+        <div class="benefit">
+            <div id="benefit-3" class="benefit-img"></div>
+            <p>Alguma coisa muito legal, que vai fazer a diferença na vida do participante.</p>
+        </div><!--benefit-->
+     </div><!--benefits-->
+   </section><!--key-benefits-->
 
-            <div class="benefit">
-                <div class="benefit-img" id="benefit3"></div>
-                <p>Alguma coisa muito legal, que vai fazer a diferença na vida do participante.</p>
-            </div><!--benefit-->
-        </div><!---benefits-->
-    </section><!--key-benefits-->
-
-    <section id="location">
-        <div class="adress">
-            <i class="bi bi-geo-alt-fill"></i>
-            <div class="adress-details">
-                <p>Rua do evento, 1333</p>
-                <p>Bairro</p>
-                <p>Abertura:14h</p>
-            </div><!--adress-details-->
-        </div><!--adress-->
+   <section id="location">
+    <div class="adress">
+        <i class="bi bi-geo-alt-fill"></i>
+        <div class="adress-details">
+            <p>Rua do evento, 1333</p>
+            <p>Bairro</p>
+            <p>Abertura 14h</p>
+        </div><!--adress-details-->
+    </div><!--adress-->
 
         <div class="about-location">
             <h3>Local de destaque</h3>
             <p>O evento será realizado em um local prestigiado pelos amantes de Design de interiores onde teremos exemplos de vários ambientes, tanto internos como externos.</p>
-        </div><!--about-event-->
-    </section><!--location-->
+        </div><!--about-location-->
+  
+   </section><!--location-->
 
-    <section id="details">
-        <div class="detail" id="detail-tittle">
-            <img src="img/hrz-3.jpg" alt="Sala decorada">
-            <div class="detail-description">
-                <h3>Conheça os ambientes que você vai aprender a decorar</h3>
-            </div><!--detail-description-->  
-        </div><!--detail-->
+   <section id="details">
+    <div class="detail" id="detail-1">
+        <img src="img/hrz-3.jpg" alt="Sala decorada">
+        <div class="detail-description">
+            <h3>Conheça os ambientes que você vai aprender a decorar</h3>
+        </div><!--detail-description-->
+    </div><!--detail-->
 
-        <div class="detail">
-            <div class="detail-description">
-                <h3>Detalhes</h3>
-                <ul>
-                    <li>Posicionamento</li>
-                    <li>Aproveitamento de espaços</li>
-                    <li>Combinações de cores</li>
-                    <li>Organização</li>
-                    <li>E muito mais</li>
-                </ul>
-            </div><!--detail-description-->  
-            <img src="img/hrz-4.jpg" alt="Sala decorada em tons escuros">
-        </div><!--detail--> 
+    <div class="detail" id="detail-2">
+        <div class="detail-description">
+            <h3>Detalhes</h3>
+            <ul>
+                <li>Posicionamento</li>
+                <li>Aproveitamento de espaço</li>
+                <li>Combinação de cores</li>
+                <li>Organização</li>
+                <li>E muito mais</li>
+            </ul>
+        </div><!--detail-description-->
+        <img src="img/hrz-4.jpg" alt="Sala de jantar">
+    </div><!--detail-->
 
-        <div class="detail">
-            <img src="img/hrz-5.jpg" alt="hrz5">
-            <div class="detail-description">
-                <h3>Objetos</h3>
-                <ul>
-                    <li>Cadeiras</li>
-                    <li>Mesas</li>
-                    <li>Espelhos</li>
-                    <li>Plantas</li>
-                    <li>Cortinas</li>
-                    <li>E muito mais</li>
-                </ul>
-            </div><!--detail-description-->  
-        </div><!--detail--> 
+    <div class="detail" id="detail-3">
+        <img src="img/hrz-5.jpg" alt="Sala decorada em tons escuros">
+        <div class="detail-description">
+            <h3>Objetos</h3>
+            <ul>
+                <li>Cadeiras</li>
+                <li>Mesas</li>
+                <li>Espelhos</li>
+                <li>Plantas</li>
+                <li>Cortinas</li>
+                <li>E muito mais</li>
+            </ul>
+        </div><!--detail-description-->
+    </div><!--detail-->
+    
+   </section><!--details-->
 
-    </section><!--details-->
+   <section id="cta">
+    <h3>Gostou? Então se inscreva:</h3>
+    <button class="btn">Solicitar inscrição</button>
+   </section><!--cta-->
 
-    <section id="cta">
-        <h3>Gostou? Então se inscreva:</h3>
-        <button class="btn">Solicitar inscrição</button>
-    </section>
 
-    <footer>
-        <h3>Indecor</h3>
-        <p>A evolução da decoração de interiores</p>
-        <p><span>Entre em contato:</span> oi@indecor.com.br</p>
-        <p><span>Ou pelo telefone:</span> (55) 99999-9999</p>
-    </footer>
-
+   <footer>
+    <h3>Indecor</h3>
+    <p>A evolução da decoração de interiores</p>
+    <p><span>Entre em contato:</span> oi@indecor.com.br</p>
+    <p><span>Ou pelo telefone:</span> (55) 99999-9999</p>
+   </footer>
 </body>
 </html>
